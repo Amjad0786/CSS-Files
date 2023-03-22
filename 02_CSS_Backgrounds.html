@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            margin-bottom: 1000px;
+        }
+        #bg-image{
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            color: white;
+            background-image: url("image/Barbieri_-_ViaSophia25668.jpg");
+        }
+        #bg-position{
+        width: 500px;
+        height: 250px;
+        box-shadow: 0 0 10px black;
+        background-image: url("image/323981629c252dc299bbb8461f3d8288.jpg");
+        background-position: center;
+        }
+        #bg-attach{
+            height: 290px;
+            width: 900px;
+            box-shadow: 0 0 10px black;
+            background-size: cover;
+            background: white url("https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20180223114337_RR-Phantom-launch.jpg&w=700&q=90&c=1") no-repeat fixed left;
+        }
+        #bg-size{
+            width: 1200px;
+            height: 250px;
+            box-shadow: 0 0 10px black;
+            background: white url("https://i.ytimg.com/vi/SagYo-gVkzI/maxresdefault.jpg") no-repeat scroll center;
+            background-size: cover;
+        }
+        #bg-color{
+            width: 500px;
+            height: 250px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg, black,orange, red);
+
+        }
+        #bg-color-2{
+            width: 500px;
+            height: 250px;
+            box-shadow: 0 0 10px black;
+            background: radial-gradient( black,orange,red);
+          
+
+        }
+        #bg-color-3{
+            width: 1000px;
+            height: 500px;
+            box-shadow: 0 0 10px black;
+            background:white url("image/IMG_20181115_181408.jpg") no-repeat scroll center;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Backgrounds Image</h2>
+    <div id="bg-image">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius saepe a et expedita omnis minus, harum consequuntur non velit nam sequi aspernatur impedit! Voluptas, odit dicta! Saepe id possimus magni.</p> 
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR80XGJIwlvn3p-IOi1CSdhBBuze7rOn3FhkQ&usqp=CAU" alt="" width="100" height="50">   
+    </div>
+
+    <h2>Backgrounds Position</h2>
+    <div id="bg-position"></div>
+
+    <h2>Backgrounds Attachment</h2>
+    <div id="bg-attach"></div>
+
+    <h2>background-size</h2>
+    <div id="bg-size"></div> 
+
+    <h2>Backgrounds color</h2>
+    <div id="bg-color"></div>
+
+    <h2>Backgrounds color</h2>
+    <div id="bg-color-2"></div>
+
+    <h2>Backgrounds color</h2>
+    <div id="bg-color-3"></div>
+</body>
+</html>
